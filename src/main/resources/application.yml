@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: eventostec
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3305/eventostec
+    username: root
+    password: root
+
+server:
+  port: 9000
+  error:
+    include-stacktrace: never
+
+
